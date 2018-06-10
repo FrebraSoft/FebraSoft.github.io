@@ -3789,3 +3789,41 @@ Slides Index
 
 .text-slide-number {
   color: #abc; }
+
+/* custom */
+.font-logo{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.sebrae-flag{
+  background: #0072ba;
+  padding: 15px 30px;
+  border-radius: 30px 0 0;
+  margin: 0;
+}
+.font-logo::before{
+  font-size: 12px;
+  font-weight: bold;
+  /* right: 10px; */
+  position: absolute;
+  top: -20px;
+  color: #333;
+}
+
+li > h2{
+  font-size: 26px !important;
+  text-transform: uppercase;
+}
+
+.font-link{
+  position: absolute;
+  bottom: 30px;
+  left: 50px;
+  text-align: left;
+}
+
+.danger{
+  color: #F43131;
+  font-weight: bold;
+}
