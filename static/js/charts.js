@@ -4,18 +4,18 @@ Chart.defaults.global.defaultFontSize = 32;
 new Chart(document.getElementById("bar-chart"), {
     type: 'bar',
     data: {
-      labels: ["ME", "MEI", "EPP"],
+      labels: [ "MEI","ME", "EPP"],
       datasets: [
         {
-          label: "",
-          backgroundColor: ["#F75454", "#FCA156","#FFEA83" ],
-          data: [45,12,2]
+          label: "2008",
+          backgroundColor: ["FF9999","#F75454", "#F75454","#F75454" ],
+          data: [6,12,45,2]
         }
       ]
     },
     options: {
       legend: { 
-        display: false
+        display: true
        },
       title: {
         display: true,
