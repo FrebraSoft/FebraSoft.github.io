@@ -3827,3 +3827,22 @@ li > h2{
   color: #F43131;
   font-weight: bold;
 }
+
+.bg-watermark{
+  width: 880px;
+  height: 880px;
+  position: absolute;
+  bottom: -200px;
+  left: -230px;
+}
+
+.watermark-color{
+  background: url('../images/logos/watermark_color_bg.svg');
+}
+.watermark-white{
+  background: url('../images/logos/watermark_white.svg');
+}
+
+.flexblock.gallery li{
+  width: 16%;
+}
